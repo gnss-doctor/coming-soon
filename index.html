@@ -1,32 +1,60 @@
 <!DOCTYPE html> 
-<html lang="en"> 
+<html lang="fr"> 
 <head> 
   <meta charset="UTF-8"> 
-  <title>Work in progress</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Site en construction</title> 
+  <!-- Google Fonts --> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   <style> 
-    body { 
+    * { box-sizing: border-box; margin: 0; padding: 0; } 
+    body, html { 
+      height: 100%; 
+      font-family: 'Roboto', sans-serif; 
+      background: linear-gradient(135deg, #87CEFA, #ADD8E6); 
+      color: #fff; 
       display: flex; 
       justify-content: center; 
       align-items: center; 
-      height: 100vh; 
-      margin: 0; 
-      font-family: Arial, sans-serif; 
-      background-color: #f0f0f0; 
-      color: #333; 
       text-align: center; 
     } 
+    .container { 
+      max-width: 600px; 
+      padding: 20px; 
+      background-color: rgba(0,0,0,0.3); 
+      border-radius: 15px; 
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3); 
+    } 
     h1 { 
-      font-size: 2em; 
+      font-size: 2.5rem; 
+      margin-bottom: 15px; 
     } 
     p { 
-      font-size: 1.2em; 
+      font-size: 1.2rem; 
+      margin-bottom: 25px; 
+    } 
+    .logo { 
+      max-width: 120px; 
+      margin-bottom: 20px; 
+    } 
+    .countdown { 
+      font-size: 1rem; 
+      font-weight: bold; 
+      letter-spacing: 1px; 
+      margin-top: 15px; 
+    } 
+    a { 
+      color: #fff; 
+      text-decoration: underline; 
     } 
   </style> 
 </head> 
 <body> 
-  <div> 
-    <h1>Coming Soon !</h1> 
-    <p>Thanks for your patience.</p> 
+  <div class="container"> 
+    <!-- Optionnel : ajoute ton logo ici --> 
+    <!-- <img src="logo.png" alt="Logo" class="logo"> --> 
+    <h1>Our website is comming soon !</h1> 
+    <p>Thanks for your patience. </p> 
   </div> 
 </body> 
 </html> 
